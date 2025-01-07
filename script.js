@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", getLocalTodos);
 todoButton.addEventListener("click", addTodo);
 todoList.addEventListener("click", deleteCheck);
 filterOption.addEventListener("change", filterTodo);
-
+// aesvkmodnv
 function addTodo(event) {
     event.preventDefault();
     const todoDiv = document.createElement("div");
